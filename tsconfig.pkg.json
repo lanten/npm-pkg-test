@@ -3,9 +3,9 @@
     "module": "commonjs",
     "target": "esnext",
     "outDir": "dist",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "sourceMap": true,
-    "rootDir": "./src",
+    "rootDir": "lib",
     "jsx": "react",
     "strict": true,
     "moduleResolution": "node",
@@ -25,9 +25,8 @@
     ]
   },
   "include": [
-    "types/**/*.ts",
-    "src/**/*.ts",
-    "src/**/*.tsx",
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
   ],
   "exclude": [
     "node_modules",

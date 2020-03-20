@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "npm run build",
-    "build": "tsc -p ./ -d",
+    "prepare": "npm run build:pkg",
+    "build:pkg": "rm -rf ./dist && tsc -p ./tsconfig.pkg.json -d",
     "pu": "npm publish --access public"
   },
   "devDependencies": {
@@ -25,7 +25,7 @@
   },
   "files": [
     "dist",
-    "src"
+    "lib"
   ],
   "repository": {
     "type": "git",
