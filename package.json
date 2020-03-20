@@ -1,0 +1,34 @@
+{
+  "name": "npm-pkg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./ -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanten/npm-pkg-test.git"
+  },
+  "author": "lanten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanten/npm-pkg-test/issues"
+  },
+  "homepage": "https://github.com/lanten/npm-pkg-test#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.2",
+    "@types/react": "^16.9.23",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "antd": "^4.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^1.19.1",
+    "react": "^16.13.1",
+    "typescript": "^3.8.3"
+  }
+}
