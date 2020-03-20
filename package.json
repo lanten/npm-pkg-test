@@ -6,16 +6,6 @@
   "scripts": {
     "build": "tsc -p ./ -d"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lanten/npm-pkg-test.git"
-  },
-  "author": "lanten",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lanten/npm-pkg-test/issues"
-  },
-  "homepage": "https://github.com/lanten/npm-pkg-test#readme",
   "devDependencies": {
     "@types/node": "^13.9.2",
     "@types/react": "^16.9.23",
@@ -30,5 +20,22 @@
     "prettier": "^1.19.1",
     "react": "^16.13.1",
     "typescript": "^3.8.3"
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanten/npm-pkg-test.git"
+  },
+  "author": "lanten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanten/npm-pkg-test/issues"
+  },
+  "homepage": "https://github.com/lanten/npm-pkg-test#readme"
 }
