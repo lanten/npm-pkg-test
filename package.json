@@ -1,10 +1,12 @@
 {
-  "name": "npm-pkg-test",
-  "version": "1.0.0",
+  "name": "@lanten233/npm-pkg-test",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p ./ -d"
+    "prepare": "npm run build",
+    "build": "tsc -p ./ -d",
+    "pu": "npm publish --access public"
   },
   "devDependencies": {
     "@types/node": "^13.9.2",
@@ -25,9 +27,6 @@
     "dist",
     "src"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lanten/npm-pkg-test.git"
