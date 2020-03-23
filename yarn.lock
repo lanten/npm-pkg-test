@@ -66,6 +66,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@lanten233/rc-ts-cli@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@lanten233/rc-ts-cli/-/rc-ts-cli-1.0.4.tgz#a03503f1cf869d3bd2022e72fe5fd28922828c28"
+  integrity sha512-7ofKHUhvWM2TgiYHEY86zOhCHz1/D0QiQE95KzCOH5sWIalesHnOSXaZWXsH0ZOjAC7Yb21LJM+hkAPr0M54Rw==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
